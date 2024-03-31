@@ -4,17 +4,12 @@ Pre-Requisites
 - Install Terraform - https://developer.hashicorp.com/terraform/tutorials/aws-get-started/install-cli
 - Configure credentials as per requirement.
 
-Prepare the working directory for operations by setting up the necessary dependencies and configurations specified in the files
-`terraform init`
+`terraform init`: Prepare the working directory for operations by setting up the necessary dependencies and configurations specified in the files
 
-Review the configuration before execution
-`terraform plan`
+`terraform plan`: Review the configuration before execution
 
-Apply configuation to execute creation of resources.
-`terraform apply`
+`terraform apply`: Apply configuation to execute creation of resources.
 
-Terraform will not make any changes to existing infrastructure. Will update its state file to reflect the current state of resources.
-`terraform refresh`
+`terraform refresh`: Terraform will not make any changes to existing infrastructure. Will update its state file to reflect the current state of resources.
 
-Delete configuration to delete resources.
-`terraform destroy`
+`terraform destroy`: Delete configuration to delete resources.
